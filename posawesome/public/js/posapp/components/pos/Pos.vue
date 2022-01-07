@@ -8,6 +8,7 @@
     <NewAddress></NewAddress>
     <MpesaPayments></MpesaPayments>
     <Variants></Variants>
+	<QuantityModal></QuantityModal>
     <OpeningDialog v-if="dialog" :dialog="dialog"></OpeningDialog>
     <v-row v-show="!dialog">
       <v-col
@@ -77,6 +78,7 @@ import NewCustomer from './NewCustomer.vue';
 import EditCustomer from './EditCustomer.vue';
 import NewAddress from './NewAddress.vue';
 import Variants from './Variants.vue';
+import QuantityModal from './newQuantityModal.vue';
 import Returns from './Returns.vue';
 import MpesaPayments from './Mpesa-Payments.vue';
 
@@ -106,6 +108,7 @@ export default {
     EditCustomer,
     NewAddress,
     Variants,
+	QuantityModal,
     MpesaPayments,
   },
 

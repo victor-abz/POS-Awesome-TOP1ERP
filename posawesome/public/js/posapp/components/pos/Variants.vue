@@ -135,7 +135,8 @@ export default {
       });
     },
     add_item(item) {
-      evntBus.$emit('add_item', item);
+		evntBus.$emit('open_quantity_model', item);
+    //   evntBus.$emit('add_item', item);
       this.close_dialog();
     },
   },
